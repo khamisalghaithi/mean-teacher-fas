@@ -1,0 +1,1 @@
+{"exp": "E0", "mode": "mt", "dataset": "svhn", "budget": 1000, "seed": 0, "steps": 3000, "error_pct": 16.96757836508912, "seconds": 709.9}

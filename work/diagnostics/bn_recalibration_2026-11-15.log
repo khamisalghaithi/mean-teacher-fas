@@ -1,0 +1,11 @@
+ 4:34  up 13:12, 1 user, load averages: 3.76 3.47 3.34
+
+All split checks passed.
+torch 2.14.1 | torchvision 0.29.2 | device mps
+MobileNetV3-Small: 1.52M params | ResNet-50: 23.51M params   (report estimates: 1.5M and 23.5M)
+sup_2_1_all_hidden_s0_diag: ACER 48.11%  (val EER 51.33%)  149.6s
+2_1/all/s0: eval-mode ACER 48.11 valEER 51.33 AUC 0.569 | BN recal clean ACER 11.78 valEER 0.67 AUC 0.975 | BN recal aug ACER 48.17 valEER 53.33 AUC 0.564 | val score quantiles [0.0, 0.0, 0.0, 0.0, 0.1978]
+sup_2_2_400_hidden_s1_diag: ACER 49.29%  (val EER 79.67%)  140.7s
+2_2/400/s1: eval-mode ACER 49.29 valEER 79.67 AUC 0.605 | BN recal clean ACER 35.39 valEER 0.67 AUC 0.807 | BN recal aug ACER 49.34 valEER 81.33 AUC 0.612 | val score quantiles [0.1883, 0.9822, 0.9997, 1.0, 1.0]
+
+[exited with code 0]

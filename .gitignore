@@ -1,0 +1,21 @@
+# This folder also holds course material, papers and data that must not be published.
+# Everything is ignored except the files listed below.
+*
+!.gitignore
+!README.md
+!requirements.txt
+!mean_teacher_cefa_experiments.ipynb
+!mean_teacher_cefa_experiments_executed.ipynb
+!tools/
+!tools/cache_frames.py
+!work/
+!work/curves_2_1_400.pdf
+!work/curves_2_1_400_v1_no_bn_recal.pdf
+!work/results/
+!work/results/*.json
+!work/results_v1_no_bn_recal_2026-11-15/
+!work/results_v1_no_bn_recal_2026-11-15/*.json
+!work/diagnostics/
+!work/diagnostics/*.json
+!work/diagnostics/*.py
+!work/diagnostics/*.log
