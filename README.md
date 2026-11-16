@@ -16,6 +16,8 @@ training videos are labeled. The student is MobileNetV3-Small (1.52M parameters)
 | `work/diagnostics/` | The script and output that found the BatchNorm problem. |
 | `tools/svhn_mt_v2.py`, `tools/run_svhn_v2.py` | The corrected SVHN check (E0 v2), 10,000 steps (see below). |
 | `work/results_svhn_v2/`, `work/svhn_v2.log` | E0 v2 results: tuning runs on a validation hold-out, `choice.json`, and the final test runs. |
+| `tools/cefa_extra.py`, `work/cefa_extra*.log` | Runs added after the first grid (see below). |
+| `tools/summarise_results.py` | Prints every number the report quotes, from the JSON files. |
 
 ## Experiments
 
@@ -23,7 +25,13 @@ training videos are labeled. The student is MobileNetV3-Small (1.52M parameters)
 - E1: supervised-only. E3: Mean Teacher. E4: a frozen ResNet-50 teacher fine-tuned on the labeled videos.
 - CeFA Protocol 2 (cross-instrument): 2_1 trains on print and tests on replay plus masks, 2_2 the reverse.
   100, 400 or all labeled training videos; 3 seeds (one seed for "all").
-- E5: Mean Teacher with the unseen instrument added to the unlabeled pool. This is my own change to the protocol.
+- E2: the Pi model on CeFA.
+- E5: E3 and E4 with the unseen instrument added to the unlabeled pool. This is my own change to the protocol.
+
+Runs added after the first grid (`tools/cefa_extra.py`, tags in the file names): E3 with the teacher in training
+mode as in the paper (`_ttrain`), E5 for E4, seeds 3 and 4 on 2_1, lambda_c 300 and 1000 (`_lam*_recal`), KL
+consistency (`_kl`) and E2 (`python tools/cefa_extra.py F`). One SVHN Mean Teacher run of 30,000 steps
+(`--steps 30000`) checks how much of the gap to the paper is the schedule.
 
 Metrics are APCER, BPCER and ACER (ISO/IEC 30107-3) at the equal-error threshold of the validation videos.
 The test subjects are never used to choose anything.

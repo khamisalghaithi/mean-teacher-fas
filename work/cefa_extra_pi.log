@@ -1,0 +1,34 @@
+SYNTHETIC = False | results -> work/results
+OK       2_1 train print   expected  1200 got  1200
+OK       2_1 train real    expected   600 got   600
+OK       2_1 val   print   expected   600 got   600
+OK       2_1 val   real    expected   300 got   300
+OK       2_1 test  3d      expected  1079 got  1079
+OK       2_1 test  real    expected   600 got   600
+OK       2_1 test  replay  expected   600 got   600
+OK       2_1 test  silicone expected    44 got    44
+OK       2_2 train real    expected   600 got   600
+OK       2_2 train replay  expected   600 got   600
+OK       2_2 val   real    expected   300 got   300
+OK       2_2 val   replay  expected   300 got   300
+OK       2_2 test  3d      expected  1079 got  1079
+OK       2_2 test  print   expected  1200 got  1200
+OK       2_2 test  real    expected   600 got   600
+OK       2_2 test  silicone expected    44 got    44
+(35615, 112, 112, 3) uint8 | 35615 frames | 7123 videos
+{'print': 3000, 'real': 1500, 'replay': 1500, '3d': 1079, 'silicone': 44}
+torch 2.14.1 | torchvision 0.29.2 | device mps
+MobileNetV3-Small: 1.52M params | ResNet-50: 23.51M params   (report estimates: 1.5M and 23.5M)
+pi_2_1_100_hidden_s0: ACER 14.08%  (val EER 2.08%; before BN recal. 12.42%)  294.0s
+pi_2_1_100_hidden_s1: ACER 16.96%  (val EER 5.67%; before BN recal. 18.16%)  329.8s
+pi_2_1_100_hidden_s2: ACER 15.80%  (val EER 2.67%; before BN recal. 15.98%)  312.6s
+pi_2_1_400_hidden_s0: ACER 18.07%  (val EER 2.67%; before BN recal. 18.55%)  313.6s
+pi_2_1_400_hidden_s1: ACER 11.26%  (val EER 1.75%; before BN recal. 13.80%)  310.3s
+pi_2_1_400_hidden_s2: ACER 15.01%  (val EER 2.75%; before BN recal. 16.19%)  303.7s
+pi_2_2_100_hidden_s0: ACER 43.96%  (val EER 1.00%; before BN recal. 43.93%)  301.1s
+pi_2_2_100_hidden_s1: ACER 38.21%  (val EER 0.67%; before BN recal. 36.60%)  301.7s
+pi_2_2_100_hidden_s2: ACER 46.24%  (val EER 0.67%; before BN recal. 45.04%)  301.1s
+pi_2_2_400_hidden_s0: ACER 37.52%  (val EER 0.67%; before BN recal. 34.50%)  301.4s
+pi_2_2_400_hidden_s1: ACER 38.08%  (val EER 0.33%; before BN recal. 35.86%)  301.4s
+pi_2_2_400_hidden_s2: ACER 37.68%  (val EER 0.67%; before BN recal. 35.73%)  301.0s
+ALL DONE

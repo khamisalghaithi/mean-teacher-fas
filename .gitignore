@@ -24,3 +24,8 @@
 !work/svhn_v2.log
 !work/results_svhn_v2/
 !work/results_svhn_v2/*.json
+!tools/cefa_extra.py
+!tools/summarise_results.py
+!work/cefa_extra.log
+!work/cefa_extra_pi.log
+!work/svhn_v2_30k.log

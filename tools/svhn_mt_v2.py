@@ -129,7 +129,8 @@ def error(model, X, y, mean, std, bs=500):
 
 def run(phase, mode, seed, lam, n_lab, alpha_late, steps=10000, n_labels=1000, batch=100,
         lr=0.003, ramp_frac=40000 / 180000, down_frac=0.25):
-    tag = f"svhn2_{phase}_{mode}_s{seed}" + ("" if mode == "sup" else f"_lam{lam:g}_nl{n_lab}_a{alpha_late:g}")
+    tag = f"svhn2_{phase}_{mode}_s{seed}" + ("" if mode == "sup" else f"_lam{lam:g}_nl{n_lab}_a{alpha_late:g}") \
+          + ("" if steps == 10000 else f"_steps{steps}")
     out = OUT / f"{tag}.json"
     if out.exists():
         print("skip (done):", tag); return json.load(open(out))
