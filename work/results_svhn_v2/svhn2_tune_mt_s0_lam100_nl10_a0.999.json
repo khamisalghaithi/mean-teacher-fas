@@ -1,0 +1,22 @@
+{
+ "exp": "E0v2",
+ "phase": "tune",
+ "mode": "mt",
+ "seed": 0,
+ "steps": 10000,
+ "n_labels": 1000,
+ "batch": 100,
+ "n_lab_per_batch": 10,
+ "lam_c": 100.0,
+ "alpha_late": 0.999,
+ "lr": 0.003,
+ "ramp_frac": 0.2222222222222222,
+ "down_frac": 0.25,
+ "eval_split": "validation (10% of train)",
+ "student_error_pct": 8.901023890784982,
+ "seconds": 1471.7,
+ "device": "mps",
+ "torch": "2.14.1",
+ "teacher_error_pct": 9.03754266211604,
+ "error_pct": 9.03754266211604
+}

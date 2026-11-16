@@ -19,3 +19,8 @@
 !work/diagnostics/*.json
 !work/diagnostics/*.py
 !work/diagnostics/*.log
+!tools/svhn_mt_v2.py
+!tools/run_svhn_v2.py
+!work/svhn_v2.log
+!work/results_svhn_v2/
+!work/results_svhn_v2/*.json

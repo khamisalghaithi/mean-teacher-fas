@@ -14,6 +14,8 @@ training videos are labeled. The student is MobileNetV3-Small (1.52M parameters)
 | `work/results/` | One JSON per run: settings, validation curve and test metrics. These are the numbers in the report. |
 | `work/results_v1_no_bn_recal_2026-11-15/` | The first run of the grid, before the BatchNorm fix (see below). Kept for the record. |
 | `work/diagnostics/` | The script and output that found the BatchNorm problem. |
+| `tools/svhn_mt_v2.py`, `tools/run_svhn_v2.py` | The corrected SVHN check (E0 v2), 10,000 steps (see below). |
+| `work/results_svhn_v2/`, `work/svhn_v2.log` | E0 v2 results: tuning runs on a validation hold-out, `choice.json`, and the final test runs. |
 
 ## Experiments
 
@@ -32,6 +34,16 @@ The first run of the grid gave a broken supervised baseline: with all labels it 
 adds Gaussian noise to every input, so the BatchNorm running statistics describe noisy frames, while testing
 uses clean ones. Every model is now scored after its BatchNorm statistics are recomputed on clean labeled
 training frames, without changing any weights. Each JSON keeps both numbers (`acer` after, `acer_raw` before).
+
+## The SVHN check (E0 v2)
+
+The first SVHN check in the notebook (3,000 steps) did not reproduce the paper. The second version
+in `tools/svhn_mt_v2.py` runs the teacher in training mode, follows the paper's learning-rate and
+consistency ramp-up and its Adam beta2 schedule, adds a learning-rate ramp-down at the end, and runs
+10,000 steps. The batch split and the consistency weight were chosen on 10% of the training set held out
+for validation. Test error over 3 seeds: supervised-only 12.44 +- 0.41%, Pi model 7.13 +- 0.05%,
+Mean Teacher 6.45 +- 0.23% (paper: 12.32, 4.95, 3.95). Rerun with `python tools/run_svhn_v2.py`,
+about 6 hours on an Apple M3 Max.
 
 ## Data
 

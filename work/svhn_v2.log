@@ -1,0 +1,182 @@
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 0 loss 2.2512 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 1000 loss 2.0774 cons 0.00217 lr 0.00066 259s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 2000 loss 2.3546 cons 0.00000 lr 0.00285 446s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 3000 loss 2.3438 cons 0.00001 lr 0.00300 617s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 4000 loss 2.3085 cons 0.00001 lr 0.00300 779s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 5000 loss 2.2653 cons 0.00000 lr 0.00300 947s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 6000 loss 2.2785 cons 0.00000 lr 0.00300 1131s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 7000 loss 2.3008 cons 0.00000 lr 0.00300 1290s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 8000 loss 2.2922 cons 0.00001 lr 0.00300 1450s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 9000 loss 2.2946 cons 0.00001 lr 0.00259 1607s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 step 9999 loss 2.2947 cons 0.00000 lr 0.00000 1754s
+svhn2_tune_mt_s0_lam100_nl1_a0.999 error 89.54% | student 85.58% in 1755.7 s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 0 loss 2.2912 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 1000 loss 2.2542 cons 0.00070 lr 0.00066 149s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 2000 loss 0.7706 cons 0.00530 lr 0.00285 296s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 3000 loss 0.4814 cons 0.00315 lr 0.00300 443s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 4000 loss 0.5692 cons 0.00514 lr 0.00300 590s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 5000 loss 0.5910 cons 0.00375 lr 0.00300 736s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 6000 loss 0.7788 cons 0.00707 lr 0.00300 883s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 7000 loss 0.5393 cons 0.00507 lr 0.00300 1030s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 8000 loss 0.4331 cons 0.00270 lr 0.00300 1177s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 9000 loss 0.5305 cons 0.00501 lr 0.00259 1324s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 step 9999 loss 0.1740 cons 0.00170 lr 0.00000 1470s
+svhn2_tune_mt_s0_lam100_nl10_a0.999 error 9.04% | student 8.90% in 1471.7 s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 1000 loss 0.9303 cons 0.00856 lr 0.00066 147s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 2000 loss 0.6299 cons 0.00474 lr 0.00285 294s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 3000 loss 0.5767 cons 0.00434 lr 0.00300 440s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 4000 loss 0.2940 cons 0.00252 lr 0.00300 587s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 5000 loss 0.2610 cons 0.00240 lr 0.00300 734s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 6000 loss 0.5442 cons 0.00530 lr 0.00300 880s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 7000 loss 0.1971 cons 0.00177 lr 0.00300 1027s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 8000 loss 0.5528 cons 0.00431 lr 0.00300 1174s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 9000 loss 0.4640 cons 0.00416 lr 0.00259 1321s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 step 9999 loss 0.0670 cons 0.00056 lr 0.00000 1467s
+svhn2_tune_mt_s0_lam100_nl50_a0.999 error 7.29% | student 7.28% in 1468.7 s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 1000 loss 0.6652 cons 0.01109 lr 0.00066 154s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 2000 loss 0.4937 cons 0.01256 lr 0.00285 313s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 3000 loss 0.1793 cons 0.00442 lr 0.00300 473s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 4000 loss 0.0787 cons 0.00231 lr 0.00300 625s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 5000 loss 0.1342 cons 0.00362 lr 0.00300 772s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 6000 loss 0.1030 cons 0.00318 lr 0.00300 919s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 7000 loss 0.2042 cons 0.00673 lr 0.00300 1066s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 8000 loss 0.1328 cons 0.00419 lr 0.00300 1213s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 9000 loss 0.1676 cons 0.00517 lr 0.00259 1360s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 step 9999 loss 0.0349 cons 0.00104 lr 0.00000 1507s
+svhn2_tune_mt_s0_lam30_nl50_a0.999 error 7.89% | student 8.08% in 1508.1 s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 1000 loss 1.2939 cons 0.00379 lr 0.00066 147s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 2000 loss 3.0742 cons 0.00965 lr 0.00285 294s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 3000 loss 1.5293 cons 0.00381 lr 0.00300 441s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 4000 loss 0.9302 cons 0.00234 lr 0.00300 588s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 5000 loss 1.2637 cons 0.00390 lr 0.00300 735s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 6000 loss 0.7299 cons 0.00150 lr 0.00300 882s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 7000 loss 0.9124 cons 0.00252 lr 0.00300 1030s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 8000 loss 1.5613 cons 0.00440 lr 0.00300 1177s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 9000 loss 1.1977 cons 0.00268 lr 0.00259 1324s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 step 9999 loss 0.3425 cons 0.00095 lr 0.00000 1478s
+svhn2_tune_mt_s0_lam300_nl50_a0.999 error 7.85% | student 7.69% in 1479.2 s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 1000 loss 0.9303 cons 0.00856 lr 0.00066 159s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 2000 loss 0.6299 cons 0.00474 lr 0.00285 313s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 3000 loss 0.5022 cons 0.00426 lr 0.00300 460s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 4000 loss 0.3562 cons 0.00310 lr 0.00300 607s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 5000 loss 0.2741 cons 0.00250 lr 0.00300 754s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 6000 loss 0.3594 cons 0.00349 lr 0.00300 901s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 7000 loss 0.4832 cons 0.00469 lr 0.00300 1048s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 8000 loss 0.2565 cons 0.00238 lr 0.00300 1195s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 9000 loss 0.3242 cons 0.00297 lr 0.00259 1342s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 step 9999 loss 0.1906 cons 0.00159 lr 0.00000 1489s
+svhn2_tune_mt_s0_lam100_nl50_a0.99 error 7.58% | student 7.55% in 1490.6 s
+CHOSEN on validation: {'n_lab': 50, 'lam': 100.0, 'alpha_late': 0.999, 'val_error': 7.290102389078498, 'tried': [(1, 100.0, 0.999, 89.54, 85.58), (10, 100.0, 0.999, 9.04, 8.9), (50, 100.0, 0.999, 7.29, 7.28), (50, 30.0, 0.999, 7.89, 8.08), (50, 300.0, 0.999, 7.85, 7.69), (50, 100.0, 0.99, 7.58, 7.55)]}
+svhn2_final_sup_s0 step 0 loss 2.3092 cons 0.00000 lr 0.00002 0s
+svhn2_final_sup_s0 step 1000 loss 0.3858 cons 0.00000 lr 0.00066 111s
+svhn2_final_sup_s0 step 2000 loss 0.1239 cons 0.00000 lr 0.00285 222s
+svhn2_final_sup_s0 step 3000 loss 0.0025 cons 0.00000 lr 0.00300 333s
+svhn2_final_sup_s0 step 4000 loss 0.0051 cons 0.00000 lr 0.00300 444s
+svhn2_final_sup_s0 step 5000 loss 0.0294 cons 0.00000 lr 0.00300 555s
+svhn2_final_sup_s0 step 6000 loss 0.0067 cons 0.00000 lr 0.00300 666s
+svhn2_final_sup_s0 step 7000 loss 0.0094 cons 0.00000 lr 0.00300 777s
+svhn2_final_sup_s0 step 8000 loss 0.0011 cons 0.00000 lr 0.00300 889s
+svhn2_final_sup_s0 step 9000 loss 0.0005 cons 0.00000 lr 0.00259 1000s
+svhn2_final_sup_s0 step 9999 loss 0.0001 cons 0.00000 lr 0.00000 1111s
+svhn2_final_sup_s0 error 12.76% | student 12.76% in 1116.6 s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 1000 loss 0.7531 cons 0.00924 lr 0.00066 147s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 2000 loss 0.9174 cons 0.00751 lr 0.00285 301s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 3000 loss 0.6514 cons 0.00545 lr 0.00300 449s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 4000 loss 0.6830 cons 0.00522 lr 0.00300 601s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 5000 loss 0.5201 cons 0.00403 lr 0.00300 757s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 6000 loss 0.6743 cons 0.00632 lr 0.00300 913s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 7000 loss 0.4779 cons 0.00412 lr 0.00300 1069s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 8000 loss 0.2935 cons 0.00291 lr 0.00300 1225s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 9000 loss 0.1787 cons 0.00162 lr 0.00259 1372s
+svhn2_final_mt_s0_lam100_nl50_a0.999 step 9999 loss 0.2033 cons 0.00198 lr 0.00000 1519s
+svhn2_final_mt_s0_lam100_nl50_a0.999 error 6.63% | student 6.66% in 1524.5 s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 0 loss 2.3079 cons 0.00000 lr 0.00002 0s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 1000 loss 0.5098 cons 0.00446 lr 0.00066 225s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 2000 loss 0.6703 cons 0.00420 lr 0.00285 445s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 3000 loss 0.3046 cons 0.00186 lr 0.00300 676s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 4000 loss 0.3235 cons 0.00261 lr 0.00300 906s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 5000 loss 0.2329 cons 0.00157 lr 0.00300 1137s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 6000 loss 0.2495 cons 0.00213 lr 0.00300 1367s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 7000 loss 0.1359 cons 0.00084 lr 0.00300 1598s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 8000 loss 0.2160 cons 0.00204 lr 0.00300 1828s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 9000 loss 0.1289 cons 0.00109 lr 0.00259 2058s
+svhn2_final_pi_s0_lam100_nl50_a0.999 step 9999 loss 0.0757 cons 0.00063 lr 0.00000 2287s
+svhn2_final_pi_s0_lam100_nl50_a0.999 error 7.18% | student 7.18% in 2293.0 s
+svhn2_final_sup_s1 step 0 loss 2.2960 cons 0.00000 lr 0.00002 0s
+svhn2_final_sup_s1 step 1000 loss 0.3127 cons 0.00000 lr 0.00066 117s
+svhn2_final_sup_s1 step 2000 loss 0.1001 cons 0.00000 lr 0.00285 232s
+svhn2_final_sup_s1 step 3000 loss 0.0491 cons 0.00000 lr 0.00300 352s
+svhn2_final_sup_s1 step 4000 loss 0.0449 cons 0.00000 lr 0.00300 473s
+svhn2_final_sup_s1 step 5000 loss 0.0023 cons 0.00000 lr 0.00300 584s
+svhn2_final_sup_s1 step 6000 loss 0.0202 cons 0.00000 lr 0.00300 694s
+svhn2_final_sup_s1 step 7000 loss 0.0035 cons 0.00000 lr 0.00300 806s
+svhn2_final_sup_s1 step 8000 loss 0.0030 cons 0.00000 lr 0.00300 926s
+svhn2_final_sup_s1 step 9000 loss 0.0005 cons 0.00000 lr 0.00259 1046s
+svhn2_final_sup_s1 step 9999 loss 0.0000 cons 0.00000 lr 0.00000 1157s
+svhn2_final_sup_s1 error 12.58% | student 12.58% in 1162.1 s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 0 loss 2.2981 cons 0.00000 lr 0.00002 0s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 1000 loss 1.0391 cons 0.01075 lr 0.00066 147s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 2000 loss 0.8342 cons 0.00713 lr 0.00285 294s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 3000 loss 0.3596 cons 0.00319 lr 0.00300 441s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 4000 loss 0.8826 cons 0.00785 lr 0.00300 588s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 5000 loss 0.3467 cons 0.00323 lr 0.00300 735s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 6000 loss 0.4843 cons 0.00452 lr 0.00300 882s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 7000 loss 0.4262 cons 0.00377 lr 0.00300 1029s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 8000 loss 0.2699 cons 0.00258 lr 0.00300 1176s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 9000 loss 0.2796 cons 0.00279 lr 0.00259 1323s
+svhn2_final_mt_s1_lam100_nl50_a0.999 step 9999 loss 0.1482 cons 0.00138 lr 0.00000 1470s
+svhn2_final_mt_s1_lam100_nl50_a0.999 error 6.19% | student 6.18% in 1475.5 s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 0 loss 2.2981 cons 0.00000 lr 0.00002 0s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 1000 loss 0.7902 cons 0.00636 lr 0.00066 218s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 2000 loss 0.3808 cons 0.00243 lr 0.00285 436s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 3000 loss 0.4110 cons 0.00297 lr 0.00300 653s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 4000 loss 0.3986 cons 0.00202 lr 0.00300 871s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 5000 loss 0.2120 cons 0.00172 lr 0.00300 1095s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 6000 loss 0.1507 cons 0.00132 lr 0.00300 1325s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 7000 loss 0.2326 cons 0.00197 lr 0.00300 1542s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 8000 loss 0.1098 cons 0.00086 lr 0.00300 1760s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 9000 loss 0.0859 cons 0.00084 lr 0.00259 1978s
+svhn2_final_pi_s1_lam100_nl50_a0.999 step 9999 loss 0.1053 cons 0.00084 lr 0.00000 2195s
+svhn2_final_pi_s1_lam100_nl50_a0.999 error 7.09% | student 7.09% in 2200.6 s
+svhn2_final_sup_s2 step 0 loss 2.3134 cons 0.00000 lr 0.00002 0s
+svhn2_final_sup_s2 step 1000 loss 0.3613 cons 0.00000 lr 0.00066 111s
+svhn2_final_sup_s2 step 2000 loss 0.1344 cons 0.00000 lr 0.00285 222s
+svhn2_final_sup_s2 step 3000 loss 0.0231 cons 0.00000 lr 0.00300 333s
+svhn2_final_sup_s2 step 4000 loss 0.0539 cons 0.00000 lr 0.00300 444s
+svhn2_final_sup_s2 step 5000 loss 0.0019 cons 0.00000 lr 0.00300 556s
+svhn2_final_sup_s2 step 6000 loss 0.0029 cons 0.00000 lr 0.00300 667s
+svhn2_final_sup_s2 step 7000 loss 0.0004 cons 0.00000 lr 0.00300 778s
+svhn2_final_sup_s2 step 8000 loss 0.0167 cons 0.00000 lr 0.00300 889s
+svhn2_final_sup_s2 step 9000 loss 0.0002 cons 0.00000 lr 0.00259 1000s
+svhn2_final_sup_s2 step 9999 loss 0.0000 cons 0.00000 lr 0.00000 1111s
+svhn2_final_sup_s2 error 11.98% | student 11.98% in 1116.3 s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 0 loss 2.3195 cons 0.00000 lr 0.00002 0s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 1000 loss 0.8558 cons 0.01290 lr 0.00066 147s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 2000 loss 0.5755 cons 0.00417 lr 0.00285 295s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 3000 loss 0.5625 cons 0.00317 lr 0.00300 441s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 4000 loss 0.7042 cons 0.00610 lr 0.00300 593s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 5000 loss 0.7389 cons 0.00611 lr 0.00300 754s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 6000 loss 0.3017 cons 0.00261 lr 0.00300 901s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 7000 loss 0.5152 cons 0.00461 lr 0.00300 1048s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 8000 loss 0.2783 cons 0.00271 lr 0.00300 1195s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 9000 loss 0.1544 cons 0.00137 lr 0.00259 1342s
+svhn2_final_mt_s2_lam100_nl50_a0.999 step 9999 loss 0.1974 cons 0.00178 lr 0.00000 1489s
+svhn2_final_mt_s2_lam100_nl50_a0.999 error 6.53% | student 6.20% in 1494.4 s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 0 loss 2.3195 cons 0.00000 lr 0.00002 0s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 1000 loss 0.5862 cons 0.00616 lr 0.00066 218s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 2000 loss 0.4685 cons 0.00210 lr 0.00285 435s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 3000 loss 0.3838 cons 0.00151 lr 0.00300 653s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 4000 loss 0.2634 cons 0.00148 lr 0.00300 870s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 5000 loss 0.2032 cons 0.00132 lr 0.00300 1088s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 6000 loss 0.1294 cons 0.00093 lr 0.00300 1305s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 7000 loss 0.1855 cons 0.00152 lr 0.00300 1523s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 8000 loss 0.1296 cons 0.00101 lr 0.00300 1740s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 9000 loss 0.1147 cons 0.00092 lr 0.00259 1958s
+svhn2_final_pi_s2_lam100_nl50_a0.999 step 9999 loss 0.1126 cons 0.00091 lr 0.00000 2194s
+svhn2_final_pi_s2_lam100_nl50_a0.999 error 7.14% | student 7.14% in 2199.4 s
+ALL DONE
